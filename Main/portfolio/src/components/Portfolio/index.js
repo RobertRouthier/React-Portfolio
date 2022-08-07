@@ -3,38 +3,22 @@ import Project from "../Project";
 
 function Portfolio() {
 
-  // Replace links with deployed projects and GitHub repos
+ 
   const [projects] = useState([
     {
-      name: 'surf-report',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'lost-ark-group-finder',
+      description: 'Front End Javascript',
+      link: "https://github.com/RobertRouthier/Lost-Ark-Group-Finder",
+      repo: "https://github.com/RobertRouthier/Lost-Ark-Group-Finder"
     },
     {
-      name: 'pastel-puzzels',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'watch-&-sell',
+      description: 'Node.js, Express',
+      link: "https://github.com/RobertRouthier/Project-2-Watch-and-Sell",
+      repo: "https://github.com/RobertRouthier/Project-2-Watch-and-Sell"
     },
-    {
-      name: 'run-buddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
-    {
-      name: 'led-wall',
-      description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
-    {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
+    
+   
   ]);
 
   return (
