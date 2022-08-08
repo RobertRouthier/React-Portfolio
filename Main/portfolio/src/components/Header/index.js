@@ -5,7 +5,7 @@ function Header(props) {
 
   return (
     <header className="flex-row space-between px-1">
-      <h1>Robert</h1>
+      <h1>Rob</h1>
     
       {props.children}
     </header>
